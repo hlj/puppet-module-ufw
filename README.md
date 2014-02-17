@@ -12,7 +12,7 @@ Installation
 
 Clone this repo to a ufw directory under your Puppet modules directory:
 
-    git clone git://github.com/uggedal/puppet-module-ufw.git ufw
+    git clone https://github.com/hlj/puppet-module-ufw.git ufw
 
 If you don't have a Puppet Master you can create a manifest file
 based on the notes below and run Puppet in stand-alone mode
