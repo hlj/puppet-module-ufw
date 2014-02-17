@@ -12,7 +12,7 @@ class ufw {
 
   exec { 'ufw-enable':
     command => 'yes | ufw enable',
-    unless  => 'ufw status | grep "Status: active"',
+    unless  => 'ufw status verbose | grep "Status: active"',
   }
 
   service { 'ufw':
